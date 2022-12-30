@@ -10,12 +10,16 @@
         //    int sum = a + b;
         //    Console.WriteLine(""+sum);
         //}
-        {
-            Student s = new Student("Chiranjeevi",2,111);
-            s.Display();
-            Student s2 = new Student(s);
-            s2.Display();
+        //{
+        //    Student s = new Student("Chiranjeevi",2,111);
+        //    s.Display();
+        //    Student s2 = new Student(s);
+        //    s2.Display();
 
+        //}
+        {
+;            Sum s = new Sum();
+            s.Add(5, 6);
         }
     }
 }
