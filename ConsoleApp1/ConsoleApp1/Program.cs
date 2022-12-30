@@ -13,6 +13,8 @@
         {
             Student s = new Student("Chiranjeevi",2,111);
             s.Display();
+            Student s2 = new Student(s);
+            s2.Display();
 
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Student
+    class Student
     {
         string name;
         int rank;
@@ -17,6 +17,13 @@ namespace ConsoleApp1
             this.rank = rank;
             this.id = id;
         }
+        public Student(Student a)
+        {
+            name = a.name;
+            rank = a.rank;
+            id = a.id;
+        }
+
         public void Display()
         {
             Console.WriteLine("Name :" + name);
